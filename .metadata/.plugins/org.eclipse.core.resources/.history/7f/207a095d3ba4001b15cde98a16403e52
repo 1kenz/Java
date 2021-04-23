@@ -8,10 +8,10 @@ public class Main {
 		// reusability
 		// cleancode
 		// type convertion
-		String message = "Number of Students :";
+		String message = "Number of Students";
 		int number = 10;
-		System.out.println("Number of Students : " + number);
-		System.out.println(message + " " + number);
+		System.out.println("Student : " + number);
+		System.out.println(message + number);
 		
 
 	}

@@ -11,7 +11,7 @@ public class Main {
 		String message = "Number of Students :";
 		int number = 10;
 		System.out.println("Number of Students : " + number);
-		System.out.println(message + " " + number);
+		System.out.println(message + number);
 		
 
 	}
