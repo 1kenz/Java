@@ -21,6 +21,7 @@ public class Main {
         // do-while loop
         int j = 1;
         do{
+            System.out.println("Loglandı");
             System.out.println(j);
             j+=2;
 
