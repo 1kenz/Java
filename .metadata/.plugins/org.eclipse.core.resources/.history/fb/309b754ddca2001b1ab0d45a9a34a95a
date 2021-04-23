@@ -1,0 +1,22 @@
+package intro;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		String internetSubeButonu = "İnternet Şubesine Gir";
+		System.out.println("Hello Word");
+		double dolarDun = 8.20;
+		double dolarBugun = 8.20;
+		
+		if(dolarBugun < dolarDun) {
+			System.out.println("Dolar düştü resmi");
+		} 
+		else if () {
+			System.out.println("Dolar yükseldi resmi");
+		}
+		else() {
+			System.out.println("Dolar eşittir resmi");
+		}
+	}
+
+}
