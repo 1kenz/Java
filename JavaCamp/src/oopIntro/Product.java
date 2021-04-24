@@ -3,7 +3,7 @@ package oopIntro;
 public class Product {
 
     public Product() {  // Constructor 
-        System.out.println("Instance create started!");
+        System.out.println("First Constructor, Instance create  started!");
 
     }
     
@@ -12,7 +12,7 @@ public class Product {
         this.name = name;
         this.unitPrice = unitPrice;
         this.detail = detail;
-        System.out.println("Instance created!");
+        System.out.println("Second Constructor, Instance created!");
         
     }
 
