@@ -32,7 +32,13 @@ public class Main {
         System.out.println(products.length);
 
 
+        Category category1 = new Category();
+        category1.id = 1;
+        category1.name = "Computer";
 
+        Category category2 = new Category();
+        category2.id = 2;
+        category2.name = "Home & Garden";
 
     }
 }
