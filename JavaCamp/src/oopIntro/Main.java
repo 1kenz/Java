@@ -21,9 +21,9 @@ public class Main {
         product3.unitPrice = 9000;
         product3.detail = "16 GB Ram";
 
+        Product product4 = new Product(4, "Dell XPS15", 25000, "64 GB Ram");
 
-
-        Product[] products = {product1, product2, product3};
+        Product[] products = {product1, product2, product3, product4};
 
         for (Product product : products) {
             System.out.println(product.name);
