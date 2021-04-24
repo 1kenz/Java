@@ -1,7 +1,7 @@
 package oopIntro;
 
 public class ProductManager {
-    public void addToCart() {
-        System.out.println("Call Add to Cart Method!");
+    public void addToCart(Product product) {
+        System.out.println(product.name + " Add to Cart");
     }
 }
