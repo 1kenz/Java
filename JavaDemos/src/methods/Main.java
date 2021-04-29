@@ -17,10 +17,13 @@ public class Main {
             } 
         }
         if(isExist){
-            System.out.println("Number is existed");
+            message("Number is existed");
         } else {
-
-            System.out.println("Number is NOT existed");
+            message("Number is NOT existed");
         }
+    }
+    
+    public static void message(String message) {
+        System.out.println(message);
     }
 }
