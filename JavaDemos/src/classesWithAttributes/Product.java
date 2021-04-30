@@ -1,6 +1,21 @@
 package classesWithAttributes;
 
 public class Product {
+    
+    
+    public Product(int id, String name, String description, double price, int stockAmount, String code) {
+        this.id = _id;
+        this.name = _name;
+        this.price = _price;
+        this.
+
+        System.out.println("Constructor with parameters run!");
+    }
+    
+    public Product() {  // overloading
+        System.out.println("Constructor without parameters run!");
+    }
+
     private int _id;
     private String _name;
     private String _description;
