@@ -33,7 +33,7 @@ public class Main {
         return "İstanbul";
     }
 
-    public static int adding(int... numbers) {
+    public static int adding(int... numbers) {  // variables arguments like JS Destructuring assignment ...numbers
         int sum = 0;
         for (int number : numbers) {
             sum += number;
