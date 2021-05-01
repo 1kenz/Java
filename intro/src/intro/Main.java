@@ -73,5 +73,4 @@ public class Main {
 		city2 ="İzmir";
 		System.out.println(city1);
 	}
-
 }
