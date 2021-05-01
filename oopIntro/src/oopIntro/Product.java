@@ -5,8 +5,8 @@ public class Product {
     
 
     // encapsulation
+	private int id;
     private String name;
-    private int id;
     private double unitPrice;
     private String detail;
     private double discount;
@@ -20,6 +20,7 @@ public class Product {
 
     }
 
+    // overloading / constructor with parameters
     public Product(int id, String name, double unitPrice, String detail, double discount, double unitPriceAfterDiscount) {  // overloading
         super();
         this.id = id;
@@ -27,6 +28,7 @@ public class Product {
         this.unitPrice = unitPrice;
         this.detail = detail;
         this.discount = discount;
+        this.unitPriceAfterDiscount = unitPriceAfterDiscount;
         System.out.println("Second Constructor, id number: " + id + " Instance created!");
         
     }
