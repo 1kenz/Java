@@ -1,12 +1,17 @@
 package inheritace;
 
 public class CustomerManager {
-	public void add(IndividualCustomer customer) {
+	
+	public void add(Customer customer) {
 		System.out.println(customer.id + " added.");
 	}
 	
-	public void add(CorporateCustomer customer) {
-		System.out.println(customer.id + " added.");
-	}
+	// public void add(IndividualCustomer customer) {
+	// 	System.out.println(customer.id + " added.");
+	// }
+	
+	// public void add(CorporateCustomer customer) {
+	// 	System.out.println(customer.id + " added.");
+	// }
 }
 
