@@ -20,7 +20,7 @@ public class Main {
 
         // Product product3 = new Product();
         
-        // product3. = 3;
+        // product3.id = 3;
         // product3.name = "HP 15";
         // product3.unitPrice = 9000;
         // product3.detail = "16 GB Ram";
@@ -46,6 +46,9 @@ public class Main {
         // category2.id = 2;
         // category2.name = "Home & Garden";
 
+        
+        System.out.println("Category name " + category1.getName());
+        
         ProductManager productManager = new ProductManager();
         productManager.addToCart(product1);
         
