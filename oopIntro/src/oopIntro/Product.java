@@ -75,10 +75,6 @@ public class Product {
     }
 
     public double getUnitPriceAfterDiscount() {
-        return unitPriceAfterDiscount;
-    }
-
-    public void setUnitPriceAfterDiscount(double unitPriceAfterDiscount) {
-        this.unitPriceAfterDiscount = unitPriceAfterDiscount;
+        return this.unitPrice - (this.unitPrice * this.discount / 100);
     }
 }

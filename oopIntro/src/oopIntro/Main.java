@@ -8,6 +8,7 @@ public class Main {
         product1.setName("Lenovo V14");
         product1.setUnitPrice(10000);
         product1.setDetail("16 GB Ram");
+        product1.setDiscount(10);
 
         Product product2 = new Product(2, "Lenovo 15", 15000, "32 GB Ram", 10, 13500);
         // Product product2 = new Product();
