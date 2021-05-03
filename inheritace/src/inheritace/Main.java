@@ -10,9 +10,16 @@ public class Main {
 		CorporateCustomer dnzsec = new CorporateCustomer();
 		dnzsec.id = 111;
 		
+		UnionCustomer abc = new UnionCustomer();
+		abc.id = 511;
+		
 		CustomerManager customerManager = new CustomerManager();
-		customerManager.add(dnzsec);
-		customerManager.add(ken);
+		// customerManager.add(dnzsec);
+		// customerManager.add(ken);
+		// customerManager.add(abc);
+		
+		Customer[] customers = { ken, dnzsec, abc};
+		customerManager.addMultiple(customers);
 		
 	}
 
