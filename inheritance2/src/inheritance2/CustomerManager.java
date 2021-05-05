@@ -7,3 +7,6 @@ public class CustomerManager {
 		logger.log();
 	}
 }
+
+
+// plug play

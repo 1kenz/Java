@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="inheritace.IndividualCustomer"/>
+    <fullyQualifiedTypeName name="inheritace.CorporateCustomer"/>
+    <fullyQualifiedTypeName name="inheritace.UnionCustomer"/>
+    <fullyQualifiedTypeName name="inheritace.Customer"/>
+    <fullyQualifiedTypeName name="inheritace.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance2.LogManager"/>
+    <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
+    <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
+    <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
+</qualifiedTypeNameHistroy>
