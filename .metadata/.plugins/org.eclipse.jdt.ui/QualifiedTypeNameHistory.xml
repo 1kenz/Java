@@ -9,4 +9,13 @@
     <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.EmailLogger"/>
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.Logger"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfaces.Customer"/>
+    <fullyQualifiedTypeName name="interfaces.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="interfaces.SmsLogger"/>
+    <fullyQualifiedTypeName name="interfaces.EmailLogger"/>
+    <fullyQualifiedTypeName name="interfaces.FileLogger"/>
+    <fullyQualifiedTypeName name="interfaces.Utils"/>
 </qualifiedTypeNameHistroy>
