@@ -1,0 +1,12 @@
+
+public class ProductManager {
+	public void add(Product product) {
+		// ProductValidator validator = new ProductValidator();
+		
+		if(ProductValidator.isValid(product)) {
+			System.out.println("Added to DB...");
+		} else {
+			System.out.println("Invalid product...");
+		}
+}
+}
