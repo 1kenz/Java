@@ -31,4 +31,27 @@
     <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
     <fullyQualifiedTypeName name="nLayeredDemo.jLogger.jLoggerManager"/>
     <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="abstractClasses.WomanGameCalculator"/>
+    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
+    <fullyQualifiedTypeName name="abstractDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.OracleDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.SqlServerDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="abstractDemo.MySqlDatabaseManager"/>
+    <fullyQualifiedTypeName name="interfacesDemo.IRepository"/>
+    <fullyQualifiedTypeName name="interfacesDemo.MsSqlCustomerDal"/>
+    <fullyQualifiedTypeName name="interfacesDemo.CustomerManager"/>
+    <fullyQualifiedTypeName name="interfacesDemo.ICustomerDal"/>
+    <fullyQualifiedTypeName name="interfacesDemo.OracleCustomerDal"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IEatable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IPayable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IWorkable"/>
+    <fullyQualifiedTypeName name="interfaceDemo.IMaintainable"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="ProductManager"/>
+    <fullyQualifiedTypeName name="Product"/>
+    <fullyQualifiedTypeName name="ProductValidator"/>
+    <fullyQualifiedTypeName name="DatabaseHelper"/>
+    <fullyQualifiedTypeName name="DatabaseHelper.Connection"/>
 </qualifiedTypeNameHistroy>
