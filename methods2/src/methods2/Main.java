@@ -51,6 +51,7 @@ public class Main {
 		return number1 + number2;
 	}
 	
+	// variable arguments
 	public static int minus(int... numbers) {
 		int total = 0;
 		for (int number : numbers) {
