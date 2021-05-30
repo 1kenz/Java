@@ -2,6 +2,22 @@ package encapsulation;
 
 public class Product {
 
+	// overloading
+	public Product () {
+		System.out.println("Constructor worked");
+	}
+	
+	// constructor with parameters
+	public Product (int id, String name, String description, double price, int stockAmount) {
+		this.id = id;
+		this.name = name;
+		this.description = description;
+		this.stockAmount = stockAmount;
+		this.price = price;
+		System.out.println("Constructor with parameters worked");
+	}
+	
+	// encapsulation
 	// attribute-field
 	//getter(read-only)-setter(write-only)
 	private int id;
