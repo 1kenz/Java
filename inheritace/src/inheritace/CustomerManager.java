@@ -4,10 +4,12 @@ public class CustomerManager {
 	
 	// SOLID - Open Closed Principle
 	
+	
+	// polymorphism
 	public void add(Customer customer) {
 		System.out.println(customer.id + " added.");
 	}
-	
+	// overloading
 	// public void add(IndividualCustomer customer) {
 	// 	System.out.println(customer.id + " added.");
 	// }

@@ -18,6 +18,8 @@ public class Main {
 		// customerManager.add(ken);
 		// customerManager.add(abc);
 		
+		
+		// polymorphism
 		Customer[] customers = { ken, dnzsec, abc};
 		customerManager.addMultiple(customers);
 		
