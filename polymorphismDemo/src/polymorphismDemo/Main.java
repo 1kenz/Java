@@ -9,13 +9,13 @@ public class Main {
 
 		// BaseLogger[] loggers = new BaseLogger[] {new FileLogger(), new EmailLogger(), new DatabaseLogger()};
 		// for (BaseLogger logger : loggers) {
-		// logger.Log("Log message");
+		// logger.log("Log message");
 		
 		
 		// }
 	
 		CustomerManager customerManager = new CustomerManager(new DatabaseLogger());
-		customerManager.Add();
+		customerManager.add();
 	
 	}
 

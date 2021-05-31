@@ -8,9 +8,9 @@ public class CustomerManager {
 		this.logger = logger;
 	}
 	
-	public void Add() {
+	public void add() {
 		System.out.println("Customer added...");
-		this.logger.Log("log message");
+		this.logger.log("log message");
 		
 	}
 }
