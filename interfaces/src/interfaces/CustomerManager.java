@@ -1,7 +1,7 @@
 package interfaces;
 
 public class CustomerManager {
-	
+	// business layer
 	private Logger[] loggers;
 	
 	

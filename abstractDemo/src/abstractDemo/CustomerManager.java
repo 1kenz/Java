@@ -2,7 +2,7 @@ package abstractDemo;
 
 public class CustomerManager {
 	
-	BaseDatabaseManager databaseManager;
+	BaseDatabaseManager databaseManager;  // strategy pattern
 	
 	public void getCustomers() {
 		databaseManager.getData();
