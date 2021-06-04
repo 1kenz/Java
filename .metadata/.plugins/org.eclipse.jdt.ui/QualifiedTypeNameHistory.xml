@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="nLayeredDemo.business.abstructs.ProductService"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.entities.concretes.Product"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.jLoggerManager"/>
-    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="abstractClasses.WomanGameCalculator"/>
     <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
@@ -60,4 +51,13 @@
     <fullyQualifiedTypeName name="overriding.NavyCreditManager"/>
     <fullyQualifiedTypeName name="overriding.BaseCreditManager"/>
     <fullyQualifiedTypeName name="overriding.StudentCreditManager"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="coffeeShopAssignment.Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="coffeeShopAssignment.Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="coffeeShopAssignment.Concrete.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="javax.swing.text.InternationalFormatter"/>
+    <fullyQualifiedTypeName name="coffeeShopAssignment.Entities.Customer"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
 </qualifiedTypeNameHistroy>
