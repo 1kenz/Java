@@ -1,4 +1,4 @@
-package nLayeredDemo.dataAccess.abstracts;
+ package nLayeredDemo.dataAccess.abstracts;
 
 import java.util.List;
 

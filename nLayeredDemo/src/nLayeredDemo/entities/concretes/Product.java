@@ -1,4 +1,4 @@
-package nLayeredDemo.entities.concretes;
+  package nLayeredDemo.entities.concretes;
 
 import nLayeredDemo.entities.abstracts.Entity;
 
