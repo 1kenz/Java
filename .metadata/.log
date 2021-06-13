@@ -4817,3 +4817,13 @@ java.lang.Error: SWT Resource was not properly disposed
 
 !ENTRY org.eclipse.core.resources 2 10035 2021-06-10 18:57:57.807
 !MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-06-14 00:11:01.309 -----------------------------------------------
+eclipse.buildId=4.19.0.I20210303-1800
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-06-14 00:11:29.842
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
