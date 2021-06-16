@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="abstractClasses.WomanGameCalculator"/>
-    <fullyQualifiedTypeName name="abstractClasses.GameCalculator"/>
-    <fullyQualifiedTypeName name="abstractDemo.CustomerManager"/>
-    <fullyQualifiedTypeName name="abstractDemo.OracleDatabaseManager"/>
-    <fullyQualifiedTypeName name="abstractDemo.SqlServerDatabaseManager"/>
-    <fullyQualifiedTypeName name="abstractDemo.BaseDatabaseManager"/>
-    <fullyQualifiedTypeName name="abstractDemo.MySqlDatabaseManager"/>
-    <fullyQualifiedTypeName name="interfacesDemo.IRepository"/>
-    <fullyQualifiedTypeName name="interfacesDemo.MsSqlCustomerDal"/>
-    <fullyQualifiedTypeName name="interfacesDemo.CustomerManager"/>
     <fullyQualifiedTypeName name="interfacesDemo.ICustomerDal"/>
     <fullyQualifiedTypeName name="interfacesDemo.OracleCustomerDal"/>
     <fullyQualifiedTypeName name="interfaceDemo.IEatable"/>
@@ -55,9 +44,20 @@
     <fullyQualifiedTypeName name="coffeeShopAssignment.Abstract.CustomerService"/>
     <fullyQualifiedTypeName name="coffeeShopAssignment.Abstract.BaseCustomerManager"/>
     <fullyQualifiedTypeName name="coffeeShopAssignment.Concrete.NeroCustomerManager"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.swing.text.InternationalFormatter"/>
     <fullyQualifiedTypeName name="coffeeShopAssignment.Entities.Customer"/>
     <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="Abstract.EntitiesManager"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.security.utils.Base64"/>
+    <fullyQualifiedTypeName name="Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="Concretes.NeroCustomerManager"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublic"/>
     <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="Concretes.StarbucksCustomerManager"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdaptor"/>
 </qualifiedTypeNameHistroy>
