@@ -2997,3 +2997,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration NorthwindApplicatio
 2021-06-16 03:17:30,911 [Framework stop - Equinox Container: 6300166b-63ea-4be2-af51-fdca71d81117] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@668793b1{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
 2021-06-16 03:17:30,914 [Framework stop - Equinox Container: 6300166b-63ea-4be2-af51-fdca71d81117] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
 2021-06-16 03:17:31,158 [Framework stop - Equinox Container: 6300166b-63ea-4be2-af51-fdca71d81117] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@14330f9c{/wse,null,STOPPED}
+2021-06-17 00:45:33,214 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-18 09:57:57,402 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
