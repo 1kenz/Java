@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="interfacesDemo.ICustomerDal"/>
-    <fullyQualifiedTypeName name="interfacesDemo.OracleCustomerDal"/>
-    <fullyQualifiedTypeName name="interfaceDemo.IEatable"/>
-    <fullyQualifiedTypeName name="interfaceDemo.IPayable"/>
-    <fullyQualifiedTypeName name="interfaceDemo.IWorkable"/>
-    <fullyQualifiedTypeName name="interfaceDemo.IMaintainable"/>
-    <fullyQualifiedTypeName name="ProductManager"/>
-    <fullyQualifiedTypeName name="Product"/>
-    <fullyQualifiedTypeName name="ProductValidator"/>
-    <fullyQualifiedTypeName name="DatabaseHelper"/>
     <fullyQualifiedTypeName name="DatabaseHelper.Connection"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="classes.CustomerManager"/>
     <fullyQualifiedTypeName name="recapDemo_Classes.Calculator"/>
@@ -60,4 +44,20 @@
     <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
     <fullyQualifiedTypeName name="Concretes.StarbucksCustomerManager"/>
     <fullyQualifiedTypeName name="Adapters.MernisServiceAdaptor"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 </qualifiedTypeNameHistroy>
