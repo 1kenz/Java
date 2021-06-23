@@ -41,6 +41,11 @@ public class ProductsController {
 		return this.productService.getAll(pageNo, pageSize);
 	}
 	
+	@GetMapping("/getAllSorted")
+	public DataResult<List<Product>> getAllSorted(){
+		return this.productService.getAllSorted();
+	}
+	
 	@PostMapping("/add")
 	public Result add(@RequestBody Product product) {
 		return this.productService.add(product);
