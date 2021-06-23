@@ -73,7 +73,6 @@ public class ProductManager implements ProductService{
 		return new SuccessDataResult<List<Product>>
 		(this.productDao.getByProductNameContains(productName), "Data listed");
 	}
-	
 	@Override
 	public DataResult<List<Product>> getByProductNameStartsWith(String productName) {
 		return new SuccessDataResult<List<Product>>
@@ -86,5 +85,4 @@ public class ProductManager implements ProductService{
 		return new SuccessDataResult<List<Product>>
 		(this.productDao.getByNameAndCategory(productName, categoryId), "Data listed");
 	}
-
 }
