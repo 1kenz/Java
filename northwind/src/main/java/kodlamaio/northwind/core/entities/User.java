@@ -1,6 +1,7 @@
 package kodlamaio.northwind.core.entities;
 
 import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -16,7 +17,7 @@ import lombok.NoArgsConstructor;
 
 @Entity
 @Data
-@Table(name="user")
+@Table(name="users")
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
