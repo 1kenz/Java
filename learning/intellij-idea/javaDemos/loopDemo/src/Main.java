@@ -27,7 +27,7 @@ public class Main {
             System.out.println(j);
             j += 2;
         }
-        while (i<10);
+        while (j<10);
         System.out.println("Do-While loop end!");
 
     }
