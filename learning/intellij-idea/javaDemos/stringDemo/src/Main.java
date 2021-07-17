@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -14,5 +16,20 @@ public class Main {
         System.out.println(characters);
         System.out.println(message.indexOf('a'));
         System.out.println(message.lastIndexOf('a'));
+
+        String newMessage = message.replace(' ','-');
+        System.out.println(newMessage);
+
+        System.out.println(message.substring(3));
+        System.out.println(message.substring(3,9));
+
+        for (String word: message.split(" ")){
+            System.out.println(word);
+        }
+
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
+
+        System.out.println(message.trim());
     }
 }
