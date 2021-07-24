@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.IOException;
+// import java.io.IOException;
 
 public class Main {
 
@@ -14,7 +14,6 @@ public class Main {
             String line = null;
             while((line = reader.readLine ()) != null) {
                 total += Integer.valueOf (line);
-
             }
             System.out.println ( "Total = " + total );
         } catch (FileNotFoundException e) {
