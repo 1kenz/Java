@@ -1,11 +1,14 @@
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         // createFile ();
-        getFileInfo ();
+        // getFileInfo ();
+        readFile ();
     }
 
     public static void createFile(){
@@ -31,5 +34,20 @@ public class Main {
             System.out.println ( "File can read " + file.canRead () );
             System.out.println ( "File length (byte) " + file.length () );
         }
+    }
+
+    public static void readFile(){
+        File file = new File ("D:\\__coding\\Java\\learning\\intellij-idea\\javaDemos\\files\\students.txt");
+        try {
+            Scanner reader = new Scanner (file);
+            while (reader.hasNextLine ()){
+                String line = reader.nextLine ();
+                System.out.println ( line );
+            }
+            reader.close ();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace ( );
+        }
+
     }
 }
