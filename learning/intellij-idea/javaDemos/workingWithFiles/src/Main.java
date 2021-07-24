@@ -1,6 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
@@ -8,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         // createFile ();
         // getFileInfo ();
+        readFile ();
+        writeFile ();
         readFile ();
     }
 
@@ -47,6 +47,20 @@ public class Main {
             reader.close ();
         } catch (FileNotFoundException e) {
             e.printStackTrace ( );
+        }
+
+    }
+
+    public static void writeFile(){
+        try {
+            FileWriter file = new FileWriter ("D:\\__coding\\Java\\learning\\intellij-idea\\javaDemos\\files\\students.txt", true);  //  true => append,
+            BufferedWriter writer = new BufferedWriter (file);
+            writer.newLine ();
+            writer.write ("Steve");
+            System.out.println ( "Write from file" );
+            writer.close ();
+        } catch (IOException exception) {
+            exception.printStackTrace ( );
         }
 
     }
