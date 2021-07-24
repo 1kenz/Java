@@ -6,11 +6,11 @@ public class AccountManager
         balance += amount;
     }
 
-    public void withdraw(double amount) throws Exception {
+    public void withdraw(double amount) throws BalanceInsufficientException {
         if (balance >= amount){
             balance = getBalance() - amount;
         } else {
-            throw new Exception ( "Not sufficient money on your account" );
+            throw new BalanceInsufficientException ( "Not sufficient money on your account" );
             // System.out.println ( "Not sufficient money on your account" );
         }
     }
