@@ -12,10 +12,11 @@ public class Main {
 
         try {
             connection = helper.getConnection ( );
-            String sql = "update city population=80000 where id = 1";
+            String sql = "delete from where id = ?";
             statement = connection.prepareStatement (sql);
+            statement.setInt (1, 5000);
             int result = statement.executeUpdate ();
-            System.out.println ( "City updated." );
+            System.out.println ( "City deleted." );
 
         } catch (SQLException exception) {
             helper.showErrorMessage (exception);
@@ -81,6 +82,28 @@ public class Main {
             // statement.executeUpdate ();
             int result = statement.executeUpdate ();
             System.out.println ( "City added." );
+
+        } catch (SQLException exception) {
+            helper.showErrorMessage (exception);
+
+        } finally {
+            statement.close ();
+            connection.close ();
+        }
+    }
+    public void updateData() throws SQLException {
+        Connection connection = null;
+
+        DbHelper helper = new DbHelper ();
+
+        PreparedStatement statement = null;
+
+        try {
+            connection = helper.getConnection ( );
+            String sql = "update city population=80000 where id = 1";
+            statement = connection.prepareStatement (sql);
+            int result = statement.executeUpdate ();
+            System.out.println ( "City updated." );
 
         } catch (SQLException exception) {
             helper.showErrorMessage (exception);
