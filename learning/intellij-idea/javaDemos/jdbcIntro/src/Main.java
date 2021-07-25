@@ -1,4 +1,5 @@
 import java.sql.*;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -18,9 +19,17 @@ public class Main {
             statement = connection.createStatement ();
             resultSet = statement.executeQuery ("select Code, Name, Continent, Region from country");
 
+            ArrayList<Country> countries = new ArrayList<Country> (  );
+
             while (resultSet.next ()){
-                System.out.println ( resultSet.getString ("Name") );
+               // System.out.println ( resultSet.getString ("Name") );
+                countries.add (new Country (
+                        resultSet.getString ("Code"),
+                        resultSet.getString ("Name"),
+                        resultSet.getString ("Continent"),
+                        resultSet.getString ("Region")));
             }
+            System.out.println ( countries.size () );  // check point
 
         } catch (SQLException exception) {
             // System.out.println (exception.getMessage ());
