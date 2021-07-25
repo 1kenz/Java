@@ -8,6 +8,31 @@ public class Main {
 
         DbHelper helper = new DbHelper ();
 
+        PreparedStatement statement = null;
+
+        try {
+            connection = helper.getConnection ( );
+
+            statement = connection.prepareStatement ("insert into city(Name, CountryCode, District, Population) " +
+                            "values ('Düzce', 'TUR','Düzce',100000)");
+            // statement.executeUpdate ();
+            int result = statement.executeUpdate ();
+            System.out.println ( "City added." );
+
+        } catch (SQLException exception) {
+            helper.showErrorMessage (exception);
+
+        } finally {
+            statement.close ();
+            connection.close ();
+        }
+    }
+
+    public static void selectDemo() throws SQLException {
+        Connection connection = null;
+
+        DbHelper helper = new DbHelper ();
+
         Statement statement = null;
         ResultSet resultSet;
 
@@ -22,7 +47,7 @@ public class Main {
             ArrayList<Country> countries = new ArrayList<Country> (  );
 
             while (resultSet.next ()){
-               // System.out.println ( resultSet.getString ("Name") );
+                // System.out.println ( resultSet.getString ("Name") );
                 countries.add (new Country (
                         resultSet.getString ("Code"),
                         resultSet.getString ("Name"),
@@ -34,9 +59,9 @@ public class Main {
         } catch (SQLException exception) {
             // System.out.println (exception.getMessage ());
             helper.showErrorMessage (exception);
-        } finally {
-                connection.close ();
-        }
 
+        } finally {
+            connection.close ();
+        }
     }
 }
