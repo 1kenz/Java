@@ -32,6 +32,8 @@ public class frmIntro extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        btnMessage1.setBackground(new java.awt.Color(255, 255, 0));
+        btnMessage1.setForeground(new java.awt.Color(255, 0, 0));
         btnMessage1.setText("Say Hello");
         btnMessage1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
