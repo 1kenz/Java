@@ -12,9 +12,13 @@ public class Main {
 
         try {
             connection = helper.getConnection ( );
-
-            statement = connection.prepareStatement ("insert into city(Name, CountryCode, District, Population) " +
-                            "values ('Düzce', 'TUR','Düzce',100000)");
+            String sql = "insert into city(Name, CountryCode, District, Population) " +
+                    "values (?, ?, ?, ?)";  // user input values
+            statement = connection.prepareStatement (sql);
+            statement.setString (1,"Düzce2");
+            statement.setString (2,"TUR");
+            statement.setString (3,"Düzce");
+            statement.setInt (4,100000);
             // statement.executeUpdate ();
             int result = statement.executeUpdate ();
             System.out.println ( "City added." );
