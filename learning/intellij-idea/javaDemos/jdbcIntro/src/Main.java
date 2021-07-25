@@ -12,16 +12,10 @@ public class Main {
 
         try {
             connection = helper.getConnection ( );
-            String sql = "insert into city(Name, CountryCode, District, Population) " +
-                    "values (?, ?, ?, ?)";  // user input values
+            String sql = "update city population=80000 where id = 1";
             statement = connection.prepareStatement (sql);
-            statement.setString (1,"Düzce2");
-            statement.setString (2,"TUR");
-            statement.setString (3,"Düzce");
-            statement.setInt (4,100000);
-            // statement.executeUpdate ();
             int result = statement.executeUpdate ();
-            System.out.println ( "City added." );
+            System.out.println ( "City updated." );
 
         } catch (SQLException exception) {
             helper.showErrorMessage (exception);
@@ -65,6 +59,34 @@ public class Main {
             helper.showErrorMessage (exception);
 
         } finally {
+            connection.close ();
+        }
+    }
+    public static void insertData() throws SQLException {
+        Connection connection = null;
+
+        DbHelper helper = new DbHelper ();
+
+        PreparedStatement statement = null;
+
+        try {
+            connection = helper.getConnection ( );
+            String sql = "insert into city(Name, CountryCode, District, Population) " +
+                    "values (?, ?, ?, ?)";  // user input values
+            statement = connection.prepareStatement (sql);
+            statement.setString (1,"Düzce2");
+            statement.setString (2,"TUR");
+            statement.setString (3,"Düzce");
+            statement.setInt (4,100000);
+            // statement.executeUpdate ();
+            int result = statement.executeUpdate ();
+            System.out.println ( "City added." );
+
+        } catch (SQLException exception) {
+            helper.showErrorMessage (exception);
+
+        } finally {
+            statement.close ();
             connection.close ();
         }
     }
