@@ -1,26 +1,31 @@
 
 import java.util.ArrayList;
 import java.sql.*;
-
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.table.DefaultTableModel;
 /**
  *
  * @author kenan
  */
 public class demo extends javax.swing.JFrame {
+    
+    DefaultTableModel model;
 
-    /**
-     * Creates new form demo
-     */
     public demo() {
         initComponents();
+        model = (DefaultTableModel)tblCities.getModel();
+        try {
+            ArrayList<City> cities = getCities();
+            for(City city : cities){
+            Object[] row = { city.getId(), city.getName(), city.getCountryCode(), city.getDistrict(), city.getPopulation() };
+            model.addRow(row);
+            }
+        } catch (SQLException ex) {
+            // System.out.println("Error" + ex);
+        }
     }
-    
+
     public ArrayList<City> getCities()throws SQLException {
         Connection connection = null;
         DbHelper dbHelper = new DbHelper();
@@ -67,7 +72,7 @@ public class demo extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        tblCities.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        tblCities.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         tblCities.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
