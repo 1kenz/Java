@@ -1,6 +1,6 @@
 package springIntro;
 
-public class OracleCustomerDal implements ICustomerDal {
+public class MySqlCustomerDal implements ICustomerDal {
 
 	String connectionString;
 	
@@ -11,10 +11,12 @@ public class OracleCustomerDal implements ICustomerDal {
 	public void setConnectionString(String connectionString) {
 		this.connectionString = connectionString;
 	}
-
-	// Data Access Layer
+	
+	@Override
 	public void add() {
 		System.out.println("Connection String : " + this.connectionString);
-		System.out.println("Added to Oracle.");
+		System.out.println("Added to MySql");
+		
 	}
+
 }

@@ -13,7 +13,7 @@
 	<bean id="database" class="springIntro.MsSqlCustomerDal" >
 	<bean id="database" class="springIntro.MySqlCustomerDal" >
 	-->
-	
+		<property name="connectionString" value="--Oracle string--" />
 	</bean>
 	
 	<bean id="service" class="springIntro.CustomerManager" >
