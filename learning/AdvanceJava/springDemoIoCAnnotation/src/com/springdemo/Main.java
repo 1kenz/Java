@@ -1,12 +1,12 @@
 package com.springdemo;
 
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext(IocConfig.class);
 		
 		ICustomerDal customerDal = context.getBean("database", ICustomer.class);
 		
