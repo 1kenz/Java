@@ -1,15 +1,20 @@
 package com.springdemo;
 
-import java.beans.JavaBean;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ComponentScan;
 
-import org.springframework.beans.factory.annotation.*;
-
-@Configurable
+@Configuration
 @ComponentScan("com.springdemo")
 public class IocConfig {
-	@JavaBean
+	@Bean
 	public ICustomerDal database() {
 		return new MsSqlCustomerDal();
+	}
+	
+	@Bean
+	public ICustomerService service() {
+		return new CustomerManager(database());
 	}
 	
 }

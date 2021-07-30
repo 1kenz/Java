@@ -8,7 +8,7 @@ public class Main {
 		
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext(IocConfig.class);
 		
-		ICustomerDal customerDal = context.getBean("database", ICustomer.class);
+		ICustomerService customerService = context.getBean("service", ICustomerService.class);
 		
 		// CustomerManager manager = new CustomerManager(new CustomerDal());,		CustomerManager manager = new CustomerManager(new CustomerDal());
 		// CustomerManager manager = new CustomerManager(new MySqlDal());
@@ -16,7 +16,7 @@ public class Main {
 	
 		// manager.add();
 		
-		customerDal.add();
+		customerService.add();
 
 	}
 	
