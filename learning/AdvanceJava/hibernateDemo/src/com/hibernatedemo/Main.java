@@ -34,7 +34,7 @@ public class Main {
 			 * 
 			 * for(String countryCode : countryCodes) { System.out.println(countryCode); }
 			 */
-			
+			// CRUD
 			
 			// INSERT
 			/*
@@ -47,15 +47,21 @@ public class Main {
 			
 			
 			// UPDATE
-			City city = session.get(City.class, 4087);
-			// System.out.println(city.getName());
-			city.setPopulation(111111);
+			/*
+			 * City city = session.get(City.class, 4087); //
+			 * System.out.println(city.getName()); city.setPopulation(111111);
+			 * 
+			 * session.save(city);
+			 */
 			
-			session.save(city);
+			
+			// DELETE
+			City city = session.get(City.class, 4087);
+			session.delete(city);
 			
 			session.getTransaction().commit();
 			
-			System.out.println("City updated.");
+			System.out.println("City deleted.");
 			
 		} finally {
 			factory.close();
