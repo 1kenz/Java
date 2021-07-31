@@ -24,10 +24,10 @@ public class Main {
 			// from City c where c.name LIKE '%stan%'
 			// ASC-Ascending
 			// DESC-Descending
-			List<City> cities = session.createQuery("from City c ORDER BY c.name DESC").getResultList();
+			List<String> countryCodes = session.createQuery("select c.countryCode from City c GROUP BY c.countryCode").getResultList();
 					
-			for(City city : cities) {
-				System.out.println(city.getName());
+			for(String countryCode : countryCodes) {
+				System.out.println(countryCode);
 			}
 			
 			session.getTransaction().commit();
