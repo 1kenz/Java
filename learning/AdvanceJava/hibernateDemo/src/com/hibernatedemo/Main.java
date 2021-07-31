@@ -9,6 +9,8 @@ import org.hibernate.cfg.Configuration;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		// Unit of work design pattern
 		SessionFactory factory = new Configuration()
 				.configure("hibernate.cfg.xml")
 				.addAnnotatedClass(City.class)
@@ -24,13 +26,27 @@ public class Main {
 			// from City c where c.name LIKE '%stan%'
 			// ASC-Ascending
 			// DESC-Descending
-			List<String> countryCodes = session.createQuery("select c.countryCode from City c GROUP BY c.countryCode").getResultList();
-					
-			for(String countryCode : countryCodes) {
-				System.out.println(countryCode);
-			}
+			
+			/*
+			 * List<String> countryCodes =
+			 * session.createQuery("select c.countryCode from City c GROUP BY c.countryCode"
+			 * ).getResultList();
+			 * 
+			 * for(String countryCode : countryCodes) { System.out.println(countryCode); }
+			 */
+			
+			City city = new City();
+			city.setName("Düzce Hibernate");
+			city.setCountryCode("TUR");
+			city.setDistrict("Düzce");
+			city.setPopulation(99999);
+			
+			session.save(city);
+			
 			
 			session.getTransaction().commit();
+			
+			System.out.println("City added.");
 			
 		} finally {
 			factory.close();
