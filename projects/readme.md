@@ -2,13 +2,13 @@
 
 ## 
 
-<ol>
+<ul>
     <li>Hibernate</li>
     <li>Spring</li>
     <li>JPA</li>
     <li>RestApi</li>
     <li>Maven</li>
-</ol>
+</ul>
 
 ## Endpoints
 
