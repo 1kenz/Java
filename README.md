@@ -12,8 +12,8 @@
 
 ## Endpoints
 
- <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/allCities.jpeg"  alt="allCities" weight="550"/> </a>
- <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/searchWithId.jpg"  alt="city" weight="550"/> </a>
+ <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/allCities.jpeg"  alt="allCities" weight=%55/> </a>
+ <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/searchWithId.jpg"  alt="city" weight=%55/> </a>
 
 
 ### All Cities (GET)
