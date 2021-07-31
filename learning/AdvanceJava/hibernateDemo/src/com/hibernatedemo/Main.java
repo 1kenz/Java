@@ -18,8 +18,13 @@ public class Main {
 		
 		try {
 			session.beginTransaction();
+			// HQL --> Hibernate Query Language
 			// Select * from city
-			List<City> cities = session.createQuery("from City c where c.name LIKE '%stan%'").getResultList();
+			// from City c where c.countryCode='TUR' AND c.countryCode='USA'
+			// from City c where c.name LIKE '%stan%'
+			// ASC-Ascending
+			// DESC-Descending
+			List<City> cities = session.createQuery("from City c ORDER BY c.name DESC").getResultList();
 					
 			for(City city : cities) {
 				System.out.println(city.getName());
