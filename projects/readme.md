@@ -12,6 +12,10 @@
 
 ## Endpoints
 
+ <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/allCities.jpeg"  alt="allCities" height="150"/> </a>
+ <a href="#" target="_blank"> <img src="https://github.com/xkendx/Java/blob/main/projects/imgs/searchWithId.jpg"  alt="city" height="150"/> </a>
+
+
 ### All Cities (GET)
 .../api/cities
 
