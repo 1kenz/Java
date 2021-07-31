@@ -11,4 +11,5 @@ public interface ICityService {
 	void add(City city);
 	void delete(City city);
 	void update(City city);
+	City getById(int id);
 }
