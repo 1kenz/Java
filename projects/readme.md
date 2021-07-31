@@ -1,6 +1,6 @@
 # Java Project
 
-## 
+## Hibernate & JPA
 
 <ul>
     <li>Hibernate</li>
