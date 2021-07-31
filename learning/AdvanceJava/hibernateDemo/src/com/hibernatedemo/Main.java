@@ -35,18 +35,27 @@ public class Main {
 			 * for(String countryCode : countryCodes) { System.out.println(countryCode); }
 			 */
 			
-			City city = new City();
-			city.setName("Düzce Hibernate");
-			city.setCountryCode("TUR");
-			city.setDistrict("Düzce");
-			city.setPopulation(99999);
+			
+			// INSERT
+			/*
+			 * City city = new City(); city.setName("Düzce Hibernate");
+			 * city.setCountryCode("TUR"); city.setDistrict("Düzce");
+			 * city.setPopulation(99999);
+			 * 
+			 * session.save(city);
+			 */
+			
+			
+			// UPDATE
+			City city = session.get(City.class, 4087);
+			// System.out.println(city.getName());
+			city.setPopulation(111111);
 			
 			session.save(city);
 			
-			
 			session.getTransaction().commit();
 			
-			System.out.println("City added.");
+			System.out.println("City updated.");
 			
 		} finally {
 			factory.close();
